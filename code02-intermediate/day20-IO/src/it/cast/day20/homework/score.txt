@@ -1,0 +1,5 @@
+#First Property operation.
+#Tue Aug 14 23:35:16 CST 2018
+lisi=100
+zhangsan=90
+wangwu=85
