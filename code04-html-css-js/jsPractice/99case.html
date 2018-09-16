@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>99乘法表</title>
+		<style>
+			td {
+				border: 1px solid #FFA07A;
+			}
+		</style>
+		<script>
+			//			var a = new function(){
+			//			onload=function() {
+			document.write("<table align='center'>");
+			for(var i = 1; i <= 9; i++) {
+				document.write("<tr>");
+				for(var j = 1; j <= i; j++) {
+					document.write("<td>");
+					document.write(i + " * " + j + " = " + (i * j) + "&nbsp");
+					document.write("</td>");
+				}
+				//				document.write("</br>");
+				document.write("</tr>");
+			}
+			document.write("</table>");
+			document.write("</br>");
+			/*生成[1,100]的随机数*/
+			function randNum() {
+				return Math.randon();
+			}
+			//  ========== 
+			//  = 为什么 = 
+			//  ========== 
+			/*var i = randNum();
+			//wrong! 调用方法必须带括号啊.
+			document.write(i);*/
+
+			var raNum = function() {
+				return Math.random();
+			}
+			document.write(raNum());
+
+			//			}
+
+			//  ========== 
+			//  = Hello notation! = 
+			//  ========== 
+			//			Document.write(a);错误!
+		</script>
+	</head>
+
+	<body>
+		<p> Hello! </p>
+	</body>
+
+</html>

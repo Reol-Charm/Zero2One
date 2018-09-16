@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Node对象&超链接设置属性</title>
+		<style>
+			/* 给所有的 div 赋予边框属性值.*/
+			
+			div {
+				border: 1px solid lightblue;
+				font-size: 35px;
+				color: darksalmon;
+			}
+			/* 不同(父子)节点的边框不同*/
+			
+			#div1 {
+				border-color: lightgreen;
+				width: 200px;
+				height: 200px;
+			}
+			
+			#div2 {
+				width: 100px;
+				height: 100px;
+			}
+			
+			#div3 {
+				border-color: lightpink;
+				width: 50px;
+				height: 50px;
+			}
+		</style>
+		<script>
+			onload = function() {
+				/* =======删除子节点===========*/
+				/* 3. 赋予链接点击事件, 执行删除节点功能.*/
+				document.getElementById("del").onclick = delFun;
+				/* 4. 赋予增加链接点击事件, 执行增加功能.*/
+				document.getElementById("add").onclick = addFun;
+
+
+				function delFun() {
+					/* 1. 获取到删除和被删除的节点对象*/
+					var div1 = document.getElementById("div1");
+					var div2 = document.getElementById("div2");
+					/* 2. 移除 div1 下 div2 节点.*/
+					div1.removeChild(div2);
+				}
+
+				function addFun() {
+					/*=======添加子节点, 首先就要有该子节点, 所以先创建div3节点, 然后再添加.==========*/
+					/* 1. CreateElement("eleName")*/
+					var div3 = document.createElement("div");
+					/* 2. 给新创建的div3元素 设置元素属性*/
+					div3.setAttribute("id", "div3");
+
+					//					var str = div3.createTextNode("div3");
+					//					Wrong!!! Uncaught TypeError: div3.createTextNode is not a function
+					/* 3. 给子节点添加内容. */
+					var str = document.createTextNode("div3!")
+					/* 4. 将文本内容添加到 div3 节点.*/
+					div3.appendChild(str)
+					/* 5. 在父节点 div1 下添加 div3 节点.*/
+					div1.appendChild(div3);
+
+				}
+
+			}
+		</script>
+	</head>
+
+	<body>
+		<!--元素嵌套-->
+		<div id="div1">First div
+			<div id="div2">Second div</div>
+		</div>
+		
+		/*
+		    超链接功能：
+		        1.可以被点击：样式
+		        2.点击后跳转到href指定的url
+
+		    需求：保留1功能，去掉2功能
+		    实现：href="javascript:void(0);"
+		 */
+		<a id="add" href="javascript:void(0)">添加子节点</a>
+		<a id="del" href="javascript:void(0)">删除子节点</a>
+	</body>
+
+</html>

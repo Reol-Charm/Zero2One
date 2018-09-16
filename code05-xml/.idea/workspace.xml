@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="edd49660-da3b-43b4-aee6-e37b2bc6d936" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/enhence-code/enhence-code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/enhence-code/src/website/cn/how2j/IOStream/TraverseFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/enhence-code/src/website/net/csdn/blog/FilesLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code03-mysql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/JsoupXpath-0.3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-day01/parse/ExtentesTryMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-day01/selector/Selector01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-day01/selector/XpathDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/druid-1.0.9-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/JDBCDemo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/UserJDBCnotTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/dictionaries/Rekol.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/basic-code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/day20-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/day20-IO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/Info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/Info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/Practice10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/Practice10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/Practice125.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/Practice125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/Practice629.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/Practice629.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/oncourse/DemoFilesOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/oncourse/DemoFilesOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code03-mysql/jdbc/src/cn/itcast/jdbcday01/logincase/LoginCaseDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code03-mysql/jdbc/src/cn/itcast/jdbcday01/logincase/LoginCaseDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/9_综合案例_网站首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/EasyHeiMaTravilWeb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/TablePractice01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/footer_service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/guonei_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/hot_tel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/hotel_tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/icon_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/icon_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/icon_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/icon_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/icon_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/icon_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/icon_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/jiangwai_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/jiangxuan_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/jiangxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/jiangxuan_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/jiangxuan_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/jiangxuan_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/jingxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/top_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/tv01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/tv02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/tv03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/tv04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code04-html-css-js/html/html-day01/easycase/image/tv05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo01/Stream/Demo01List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo01/Stream/Demo02Stream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo01GetStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo02Stream_forEach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo03Stream_filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo04Stream_map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo05Stream_count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo06Stream_limit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo07Stream_skip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo08Stream_concat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo03/Stream/Demo01StreamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo03/Stream/Demo02StreamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo03/Stream/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo04/MethodReference/Demo01Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo04/MethodReference/Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo05/ObjectMethodReference/Demo01ObjectMethodReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo05/ObjectMethodReference/MethodRerObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo05/ObjectMethodReference/Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo06/StaticMethodReference/Calcable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo06/StaticMethodReference/Demo01StaticMethodReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo07/SuperMethodReference/Greetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo07/SuperMethodReference/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo07/SuperMethodReference/Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo08/ThisMethodReference/Husband.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo08/ThisMethodReference/Richable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo09/ConstructorMethodReference/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo09/ConstructorMethodReference/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo09/ConstructorMethodReference/PersonBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo10/ArrayMethodReference/ArrayBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo10/ArrayMethodReference/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/day24/cn/itcast/day24_Stream/inclass/Demo02StreamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/day24/cn/itcast/day24_Stream/inclass/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/day24/cn/itcast/day24_Stream/inclass/StreamDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Annotation/Anno1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Annotation/Anno2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Annotation/GetAnnotations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Reflect/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Reflect/Demo01Properties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Reflect/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Reflect/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmind/File类中常用方法.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../xmind/File类中常用方法.xmind" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1599991842">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="2" />
+          <entry key="java" value="4" />
+          <entry key="xml" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="4" />
+          <entry key="XML" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1910" />
+          <entry key="xml" value="56" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1910" />
+          <entry key="XML" value="56" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src-day01/parse/FirstJsoup.java" />
+        <option value="$PROJECT_DIR$/src-day01/parse/ExtentesTryMethod.java" />
+        <option value="$PROJECT_DIR$/src-day01/selector/Selector01.java" />
+        <option value="$PROJECT_DIR$/src-day01/FirstXml.xml" />
+        <option value="$PROJECT_DIR$/src-day01/parse/XpathDemo01.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="8" />
+    <option name="y" value="13" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code05-xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code05-xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code05-xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code05-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code05-xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code05-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src-day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code05-xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code05-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src-day01" type="462c0819:PsiDirectoryNode" />
+              <item name="parse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code05-xml" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code05-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="src-day01" type="462c0819:PsiDirectoryNode" />
+              <item name="selector" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\AllTheExercise\Magic\Zero2One\code05-xml\libs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.XpathDemo01">
+    <configuration name="ExtentesTryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="parse.ExtentesTryMethod" />
+      <module name="code05-xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Selector01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selector.Selector01" />
+      <module name="code05-xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XpathDemo01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="selector.XpathDemo01" />
+      <module name="code05-xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selector.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ExtentesTryMethod" />
+      <item itemvalue="Application.Selector01" />
+      <item itemvalue="Application.XpathDemo01" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.XpathDemo01" />
+        <item itemvalue="Application.Selector01" />
+        <item itemvalue="Application.ExtentesTryMethod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="edd49660-da3b-43b4-aee6-e37b2bc6d936" name="Default Changelist" comment="" />
+      <created>1536823157386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536823157386</updated>
+      <workItem from="1536823163746" duration="9972000" />
+      <workItem from="1536842968996" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="9983000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22844176" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20967741" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src-day01/parse/FirstJsoup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/JsoupXpath-0.3.2.jar!/cn/wanghaomiao/xpath/model/JXDocument.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="12" column="68" lean-forward="true" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-day01/FirstXml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-day01/selector/Selector01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-day01/selector/XpathDemo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src-day01/parse/ExtentesTryMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

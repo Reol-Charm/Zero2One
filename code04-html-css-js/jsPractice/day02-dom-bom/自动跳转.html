@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>自动跳转</title>
+		<style>
+			P {
+				/*align-content: center;*/
+				text-align: center;
+			}
+			
+			#time {
+				color: lightsalmon;
+			}
+		</style>
+		<script>
+			/*分析：
+						               1.显示页面效果  <p>
+						               2.倒计时读秒效果实现
+						                   2.1 定义一个方法，获取span标签，修改span标签体内容，时间--
+						                   2.2 定义一个定时器，1秒执行一次该方法
+						               3.在方法中判断时间如果<= 0 ，则跳转到首页
+						*/
+
+			//设置定时器，1秒执行一次该方法
+			//			setInteval(showTime(), 1000);
+			setInterval(showTime, 1000);
+			// 2.倒计时读秒效果实现
+			var second = 5;
+			//定义一个方法，获取span标签，修改span标签体内容，时间--
+
+			function showTime() {
+				second--;
+				//判断时间如果<= 0 ，则跳转到首页
+				if(second <= 0) {
+					location.href = "轮播图demo.html"
+				}
+
+				var time = document.getElementById("time");
+
+				time.innerHTML = second;
+
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<p>
+			<span id="time">5</span> s 后跳转...
+		</p>
+
+	</body>
+
+</html>

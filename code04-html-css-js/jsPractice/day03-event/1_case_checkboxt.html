@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>checked checkbox</title>
+		<style>
+			table {
+				border: 1px solid;
+				width: 500px;
+				margin-left: 30%;
+			}
+			
+			caption {
+				font-size: 30px;
+				color: plum;
+			}
+			
+			td,
+			th {
+				text-align: center;
+				border: 1px solid;
+			}
+			
+			div {
+				margin-top: 10px;
+				margin-left: 30%;
+				/*margin-left: 50%;*/
+			}
+			
+			.over {
+				background-color: lightgreen;
+			}
+			
+			.off {
+				background-color: white;
+			}
+			/*input {}*/
+		</style>
+
+		<script>
+			onload = function() {
+				/* 1. 给select all按钮绑定点击操作, 点击后全选 checkbox*/
+				document.getElementById("all_btn").onclick = function() {
+					/* 1.1 获取所有的checkbox 对象, 设置值为true*/
+					var cbs = document.getElementsByName("cb");
+					/* 1.2 遍历checkbox对象数组, 每一个checkbox 对象设置为 true*/
+					for(var i = 0; i < cbs.length; i++) {
+						cbs[i].checked = true;
+					}
+				}
+
+				/* 2. 给none_btn按钮绑定点击操作, 点击后全选 checkbox*/
+				document.getElementById("none_btn").onclick = function() {
+					/* 2.1 获取所有的checkbox 对象, 设置值为 false*/
+					var cbs = document.getElementsByName("cb");
+					/* 2.2 遍历checkbox对象数组, 每一个checkbox 对象设置为 false*/
+					for(var i = 0; i < cbs.length; i++) {
+						 // 2.3.设置每一个cb的状态为未选中  checked
+						cbs[i].checked = false;
+					}
+				}
+
+				/* 3. 给inverse_btn按钮绑定点击操作, 点击后全选 checkbox*/
+				document.getElementById("inverse_btn").onclick = function() {
+					/* 3.1 获取所有的 checkbox 对象*/
+					var cbs = document.getElementsByName("cb");
+					/* 3.2 遍历checkbox对象数组*/
+					for(var i = 0; i < cbs.length; i++) {
+						/* 3.3 对每一个checkbox 对象的check值取反*/
+						cbs[i].checked = !cbs[i].checked;
+					}
+				}
+
+				/* 4. 给每一行都添加鼠标事件 */
+				var trs = document.getElementsByTagName("tr");
+				for(var i = 0; i < trs.length; i++) {
+
+					/* 4.1 鼠标放在行上*/
+					trs[i].onmouseover = function() {
+						/*这一行被赋予 class=over的属性.*/
+						this.className = "over";
+					}
+					/* 4.2 移开鼠标🖱*/
+					trs[i].onmouseout = function() {
+						this.className = "off";
+					}
+				}
+
+				/* 5. 每一行checkbox的 checked 值都与第一行的的 checked 值相等.*/
+				document.getElementById("firstCb").onclick = function() {
+					var cbs = document.getElementsByName("cb");
+					for(var i = 0; i < cbs.length; i++) {
+						//					cbs[i].checked = cb1st.checked;
+						cbs[i].checked = this.checked;
+					}
+				}
+
+			}
+		</script>
+	</head>
+
+	<body>
+		<table>
+			<caption>学生信息表</caption>
+			<tr>
+				<th><input type="checkbox" name="cb" id="firstCb"></th>
+				<th>编号</th>
+				<th>姓名</th>
+				<th>性别</th>
+				<th>操作</th>
+			</tr>
+
+			<tr>
+				<td><input type="checkbox" name="cb"></td>
+				<td>1</td>
+				<td>令狐冲</td>
+				<td>男</td>
+				<td>
+					<a href="javascript:void(0);">删除</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="checkbox" name="cb"></td>
+				<td>2</td>
+				<td>任我行</td>
+				<td>男</td>
+				<td>
+					<a href="javascript:void(0);">删除</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td><input type="checkbox" name="cb"></td>
+				<td>3</td>
+				<td>岳不群</td>
+				<td>?</td>
+				<td>
+					<a href="javascript:void(0);">删除</a>
+				</td>
+			</tr>
+		</table>
+		<!--块状包裹按钮, 方便进行 css 操作.-->
+		<div>
+			<input type="button" name="button" id="all_btn" value="Select all" />
+			<input type="button" name="button" id="none_btn" value="Select none" />
+			<input type="button" name="button" id="inverse_btn" value="Inverse" />
+		</div>
+
+	</body>
+
+</html>

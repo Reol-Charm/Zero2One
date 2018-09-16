@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>点击添加属性案例</title>
+		<style type="text/css">
+			#hyperlink01 {
+				font-size: 50px;
+				color: lightpink;
+				text-align: center;
+			}
+			input{
+				text-align: center;
+			}
+		</style>
+		<script type="text/javascript">
+			onload = function() {
+				
+				/*获取到设置按钮对象, 绑定事件*/
+//				===onclick方法====document.getElementById("setA").onclick() = addAttribute();====没有括号=====
+				document.getElementById("setA").onclick = addAttribute;
+				/*设置属性的方法.*/
+				function addAttribute() {
+					/* 获取到文字对象, 并设置超链接属性.*/
+					document.getElementById("hyperlink01").setAttribute("href", "自动跳转.html");
+				}
+
+				/* 删除属性按钮*/
+				document.getElementById("delA").onclick = delAttribute;
+
+				function delAttribute() {
+					document.getElementById("hyperlink01").removeAttribute("href");
+				}
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<a id="hyperlink01">twitter</a><br />
+		<!--<input id="setA" type="setA" value="set attribute" />-->
+		<input id="setA" type="button" value="set attribute" />
+		<input id="delA" type="button" value="delete attribute" />
+	</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>左右选择</title>
+		<style>
+			#left_sel,
+			#rig_sel {
+				border-color: #FFC0CB;
+				padding: 10px;
+				margin-left: 20px;
+				float: left;
+			}
+		</style>
+		<script>
+			/* 双击添加到右边.*/
+			onload = function() {
+				var lef_sel = document.getElementById("left_sel");
+				var rig_sel = document.getElementById("rig_sel");
+				lef_sel.ondblclick = function() {
+					/* 2. 获取到所有的 option 数组.*/
+					var ops = lef_sel.options;
+					/* 3. 遍历 options 数组, */
+					for(var i = 0; i < ops.length; i++) {
+						if(ops[i].checked) {
+							var lef_op = rig_sel.createElement("option");
+							lef_sel.appendChild(lef_op);
+						}
+					}
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<select id="left_sel" size="6">
+			<option>南昌市</option>
+			<option>九江市</option>
+			<option>庐山市</option>
+			<option>赣州市</option>
+			<option>萍乡市</option>
+			<option>宜春市</option>
+		</select>
+		<!--rig_sel-->
+		<select id="rig_sel">
+
+		</select>
+
+	</body>
+
+</html>

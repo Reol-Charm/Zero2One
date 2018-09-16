@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8aced3c9-bf26-4692-9176-5cc9109f9002" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/enhence-code/enhence-code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/enhence-code/src/website/cn/how2j/IOStream/TraverseFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code02-intermediate/enhence-code/src/website/net/csdn/blog/FilesLength.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code03-mysql/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/druid-1.0.9-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/spring-beans-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/spring-core-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/spring-jdbc-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/libs/spring-tx-5.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/JDBCDemo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/UserJDBCnotTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../code09-exam/src/me/reolcharm/exam/ex090418/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/dictionaries/Rekol.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../basic-code/basic-code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/day20-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/day20-IO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/Info.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/Info.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/Practice10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/Practice10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/Practice125.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/Practice125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/Practice629.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/Practice629.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/score.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/score.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/homework/text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/homework/text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code02-intermediate/day20-code/src/it/cast/day20/oncourse/DemoFilesOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code02-intermediate/day20-IO/src/it/cast/day20/oncourse/DemoFilesOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code03-mysql/jdbc/src/cn/itcast/jdbcday01/logincase/LoginCaseDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code03-mysql/jdbc/src/cn/itcast/jdbcday01/logincase/LoginCaseDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/9_综合案例_网站首页.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/EasyHeiMaTravilWeb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/TablePractice01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/banner_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/banner_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/banner_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/footer_service.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/guonei_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/hot_tel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/hotel_tel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/icon_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/icon_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/icon_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/icon_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/icon_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/icon_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/icon_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/jiangwai_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/jiangxuan_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/jiangxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/jiangxuan_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/jiangxuan_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/jiangxuan_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/jingxuan_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/top_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/tv01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/tv02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/tv03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/tv04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/html-day01/easycase/image/tv05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo01/Stream/Demo01List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo01/Stream/Demo02Stream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo01GetStream.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo02Stream_forEach.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo03Stream_filter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo04Stream_map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo05Stream_count.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo06Stream_limit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo07Stream_skip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo02/Stream/Demo08Stream_concat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo03/Stream/Demo01StreamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo03/Stream/Demo02StreamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo03/Stream/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo04/MethodReference/Demo01Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo04/MethodReference/Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo05/ObjectMethodReference/Demo01ObjectMethodReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo05/ObjectMethodReference/MethodRerObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo05/ObjectMethodReference/Printable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo06/StaticMethodReference/Calcable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo06/StaticMethodReference/Demo01StaticMethodReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo07/SuperMethodReference/Greetable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo07/SuperMethodReference/Human.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo07/SuperMethodReference/Man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo08/ThisMethodReference/Husband.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo08/ThisMethodReference/Richable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo09/ConstructorMethodReference/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo09/ConstructorMethodReference/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo09/ConstructorMethodReference/PersonBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo10/ArrayMethodReference/ArrayBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/13_StreamAndMethodReference/com/itheima/demo10/ArrayMethodReference/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/day24/cn/itcast/day24_Stream/inclass/Demo02StreamTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/day24/cn/itcast/day24_Stream/inclass/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day24-code/out/production/day24/cn/itcast/day24_Stream/inclass/StreamDemo01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Annotation/Anno1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Annotation/Anno2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Annotation/GetAnnotations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Reflect/Case.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Reflect/Demo01Properties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Reflect/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employ-code/day25-code/out/production/day25/cn/itcast/day25_Reflect/Reflect/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../xmind/File类中常用方法.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/../xmind/File类中常用方法.xmind" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="697440167">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.compare" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="10" />
+    <option name="y" value="50" />
+    <option name="width" value="1346" />
+    <option name="height" value="698" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="code04-html-css-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code04-html-css-js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code04-html-css-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code04-html-css-js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code04-html-css-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code04-html-css-js" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="css-day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code04-html-css-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code04-html-css-js" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code04-html-css-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code04-html-css-js" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="day02-form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code04-html-css-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code04-html-css-js" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="html-day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code04-html-css-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code04-html-css-js" type="462c0819:PsiDirectoryNode" />
+              <item name="jsPractice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code04-html-css-js" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code04-html-css-js" type="462c0819:PsiDirectoryNode" />
+              <item name="jsPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536243791382" />
+    <property name="last_opened_file_path" value="G:/Program Files/Git/bin/git.exe" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8aced3c9-bf26-4692-9176-5cc9109f9002" name="Default Changelist" comment="" />
+      <created>1536163238854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536163238854</updated>
+      <workItem from="1536163245392" duration="387000" />
+      <workItem from="1536210967587" duration="432000" />
+      <workItem from="1536211413274" duration="96000" />
+      <workItem from="1536243420906" duration="363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1278000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="50" width="1346" height="698" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26127526" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>

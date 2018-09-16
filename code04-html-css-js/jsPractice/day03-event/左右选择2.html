@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#left,#center,#right{
+				float: left;
+				margin-left: 50px;
+			}
+		</style>
+		
+		<script type="text/javascript">
+			onload = function(){
+				var goRight = document.getElementById("goRight");
+				var goLeft = document.getElementById("goLeft");
+				var allGoRight = document.getElementById("allGoRight");
+				var allGoLeft = document.getElementById("allGoLeft");
+				
+				var sel_left = document.getElementById("sel_left");
+				var sel_right = document.getElementById("sel_right");
+				
+				goRight.onclick = function(){
+					var v_ops = sel_left.options;
+					for (var i = v_ops.length-1; i >=0; i--) {
+						var op = v_ops[i]
+						if(op.selected == true){
+							sel_right.appendChild(op);
+							op.selected = false;
+						}
+					}
+				}
+				goLeft.onclick = function(){
+					var v_ops = sel_right.options;
+					for (var i = v_ops.length-1; i >=0; i--) {
+						var op = v_ops[i]
+						if(op.selected == true){
+							sel_left.appendChild(op);
+							op.selected = false;
+						}
+					}
+				}
+				
+				allGoRight.onclick = function(){
+					var v_ops = sel_left.options;
+					for (var i = v_ops.length-1; i >=0; i--) {
+						var op = v_ops[i]
+						sel_right.appendChild(op);
+						op.selected = false;
+					}
+				}
+				
+				allGoLeft.onclick = function(){
+					var v_ops = sel_right.options;
+					for (var i = v_ops.length-1; i >=0; i--) {
+						var op = v_ops[i]
+						sel_left.appendChild(op);
+						op.selected = false;
+					}
+				}
+				
+				sel_left.ondblclick = function(){  //js的事件冒泡：将子元素的事件向上传递给父元素的同名事件
+					var v_ops = sel_left.options;
+					for (var i = v_ops.length-1; i >=0; i--) {
+						var op = v_ops[i]
+						if(op.selected == true){
+							sel_right.appendChild(op);
+							op.selected = false;
+						}
+					}
+				}
+				
+			}
+		</script>
+		
+	</head>
+	<body>
+			
+		<div id="left">
+			<select size="5" multiple="multiple" id="sel_left">
+				<option>南昌市</option>
+				<option>九江市</option>
+				<option>庐山市</option>
+				<option>赣州市</option>
+				<option>萍乡市</option>
+				<option>宜春市</option>
+			</select>
+		</div>
+		<div id="center">
+			<span id="goRight"> >> </span> <br>
+			<span id="goLeft"> << </span> <br>
+			
+			<span id="allGoRight"> >>> </span> <br>
+			<span id="allGoLeft"> <<< </span> <br>
+		</div>
+		<div id="right">
+			<select size="5" multiple="multiple"  id="sel_right">
+				
+			</select>
+		</div>
+		
+		
+	</body>
+</html>

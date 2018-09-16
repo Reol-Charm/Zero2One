@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>省市联动</title>
+		<script>
+			/* 1. 利用二维数组存储市名称*/
+			var province = new Array(3);
+			province[1] = ["南京市1", "徐州市", "苏州市"];
+			province[2] = ["南京市2", "徐州市", "苏州市"];
+			province[3] = ["南京市3", "徐州市", "苏州市"];
+			
+			onload = function() {
+
+				/* 2. 获取到 city 下拉选对象.*/
+				var city = document.getElementById("city");
+				/* 3. 给表单域添加事件*/
+				document.getElementById("province").onchange = function() {
+					
+					/* 4. 从二维数组中的对应的角标值中获取到市数组*/
+					/*点哪个省, 就获取哪个省对应的二维数组.
+					 this.selectedIndex: 当前点击的省, 其对应的索引值.对应的是 city 数组*/
+					var cities = province[this.selectedIndex];
+					/* 重置选项, 以示区分, 以免重复添加*/
+					city.innerHTML = "<option>--请选择--</option>"
+					/* 向 city 节点中中写入 <option> 节点. `+=`  */
+					for(var i = 0; i < cities.length; i++) {
+						city.innerHTML += "<option>" + cities[i] + "</option>";
+					}
+				}
+			}
+
+			/**/
+		</script>
+	</head>
+
+	<body>
+		<select id="province">
+			<option value="0">---请选择省份---</option>
+			<option value="1">---江苏省---</option>
+			<option value="2">---台湾省---</option>
+			<option value="3">---福建省---</option>
+		</select>
+		<select id="city">
+			<option>---请选择城市---</option>
+		</select>
+	</body>
+
+</html>

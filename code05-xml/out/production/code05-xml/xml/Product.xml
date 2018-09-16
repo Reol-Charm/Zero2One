@@ -1,0 +1,18 @@
+<?xml version='1.0' ?>
+<!DOCTYPE CATALOG SYSTEM "Product.dtd">
+<CATALOG>
+    <PRODUCT CATEGORY="HandRTool" PLANT="Chicago" INCENTORY="InStock">
+        <SPECIFICATIONS WEIGHT="001" POWERE="MMM">
+
+        </SPECIFICATIONS>
+        <OPTIONS FINISH="Matte" ADAPTER="Included" CASE="HardShell">
+
+        </OPTIONS>
+        <PRICE WHOLESALE="$90" MSRP="$85">
+
+        </PRICE>
+        <NOTES>
+
+        </NOTES>
+    </PRODUCT>
+</CATALOG>

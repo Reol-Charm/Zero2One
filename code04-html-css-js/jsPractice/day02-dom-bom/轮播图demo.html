@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>First dynamic picture</title>
+		<script>
+			onload = function() {
+				/* 1. 确定 js 事件 --> 循环计时器, 更改图片的 src 路径
+						 并调用方法.*/
+				setInterval(fun, 2000);
+				var control = 1;
+				/* 2. 定义方法*/
+				function fun() {
+					/* 3. 确定业务逻辑*/
+					/*control++;*/
+					if(control >= 4) {
+						control = 1;
+					}
+					var banner = document.getElementById("banner");
+					banner.src = "../../html/day01-html/image/banner_" + control++ + ".jpg";
+					
+					setInterval(fun02, 1000);
+				}
+				//var img = document.getElementsByTagName("img");
+				//img.src = "../../html/day01-html/image/banner_2.jpg";
+				//undefined
+				//alert(img.src);
+				
+				/* 需求: 页面倒计时 todo 怎么继续图片的轮播? */
+				var sec = setInterval(fun02, 1000);
+				var second = 1;
+
+				function fun02() {
+					document.write(second++);
+					if(second >= 4) {
+						second = 1;
+						clearInterval(sec);
+					}
+				}
+
+			}
+		</script>
+
+	</head>
+
+	<body>
+		<img id="banner" src="../../html/day01-html/image/banner_1.jpg" width="100%" />
+
+	</body>
+
+</html>

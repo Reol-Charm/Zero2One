@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Event Practices</title>
+		<script>
+			onload = function (){
+//				<!---->悬浮事件
+				document.getElementById("btn_href").onmouseover = function(){
+					 location.href = "../day02-dom-bom/5_case_动态表格.html" /*target*/; 
+				}
+			}
+			
+		</script>
+	</head>
+
+	<body>
+		<input id="btn_href" type="button" value="Hello Even!" />
+
+	</body>
+
+</html>

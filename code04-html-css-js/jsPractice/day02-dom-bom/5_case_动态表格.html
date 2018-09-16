@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>5_case_动态表格</title>
+		<style>
+			/*input {
+				text-align: center;
+			}
+			table{
+				border: 1px solid orangered;
+			}
+			caption {
+				text-align: center;
+				font-size: 30px;
+				color: lightgreen;*/
+			
+			table {
+				border: 1px solid;
+				margin: auto;
+				width: 500px;
+			}
+			
+			td,
+			th {
+				text-align: center;
+				border: 1px solid;
+			}
+			
+			div {
+				text-align: center;
+				margin: 50px;
+			}
+		</style>
+		<script>
+			onload = function() {
+				/* 1. 给添加按钮绑定单击事件*/
+				document.getElementById("btn").onclick = addfun;
+
+				function addfun() {
+					/* 2. 获取文本框的内容*/
+					var id = document.getElementById("id").value;
+					var name = document.getElementById("name").value;
+					var gender = document.getElementById("gender").value;
+					//					alert(id);alert(name);alert(gender);
+					/*=======td -->  tr -->  table========*/
+					/* 3. 创建td，设置td的文本为文本框的内容。*/
+					//					document.createElement("table");
+					//					document.createElement("tr");
+
+					/*id 的 td*/
+					var td_id = document.createElement("td");
+					/*============将获取到的值添加到文本节点中去==============*/
+					var val_id = document.createTextNode(id);
+					/* todo 返回值是什么??? ==> [object Text] */
+					td_id.appendChild(val_id);
+					/* name 的 td*/
+					var td_name = document.createElement("td");
+					var text_name = document.createTextNode(name);
+					td_name.appendChild(text_name);
+					/* gender 的 td*/
+					var td_gender = document.createElement("td");
+					var text_gender = document.createTextNode(gender);
+					td_gender.appendChild(text_gender);
+					/* 删除链接🔗的 td*/
+					//a标签的td
+					var td_a = document.createElement("td");
+					var ele_a = document.createElement("a");
+					ele_a.setAttribute("href", "javascript:void(0);");
+					ele_a.setAttribute("onclick", "delTr(this);");
+					var text_a = document.createTextNode("删除");
+					ele_a.appendChild(text_a);
+					td_a.appendChild(ele_a);
+
+					/* 创建 tr ,将上述 td 添加到 tr 节点.*/
+					var tr = document.createElement("tr");
+					tr.appendChild(td_id);
+					tr.appendChild(td_name);
+					tr.appendChild(td_gender);
+					tr.appendChild(td_a);
+					
+					/* 获取 table 节点对象, 将 tr 添加到 table*/
+					var table = document.getElementsByTagName("table")[0];
+					table.appendChild(tr);
+
+					/**/
+					//删除方法
+					function delTr(obj) {
+						/* 获取到 table 节点, table 节点删除 tr 节点:方法:: 父节点.removeChild(子节点);*/
+						var table = obj.parentNode.parentNode.parentNode;
+						//		document.getElementsByTagName("table")[0]; ---> wrong!
+						var tr = obj.parentNode.parentNode;
+
+						table.removeChild(tr);
+					}
+
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<!--/* 分析：
+            1.添加：
+                1. 给添加按钮绑定单击事件
+                2. 获取文本框的内容
+                3. 创建td，设置td的文本为文本框的内容。
+                4. 创建tr
+                5. 将td添加到tr中
+                6. 获取table，将tr添加到table中
+            2.删除：
+                1.确定点击的是哪一个超链接
+                    <a href="javascript:void(0);" onclick="delTr(this);" >删除</a>
+                2.怎么删除？
+                    removeChild():通过父节点删除子节点 */-->
+		<input id="id" type="number" placeholder="please input ID" name="id" checked="3" />
+		<input id="name" type="text" placeholder="please input name" name="name" />
+		<input id="gender" type="text" placeholder="please input gender" name="gender" />
+		<input id="btn" type="button" value="Add" />
+		<table>
+			<caption>Students Information</caption>
+
+			<tr>
+				<th>编号</th>
+				<th>姓名</th>
+				<th>性别</th>
+				<th>操作</th>
+			</tr>
+
+			<tr>
+				<td>1</td>
+				<td>令狐冲</td>
+				<td>男</td>
+				<td>
+					<a href="javascript:void(0)">删除</a>
+				</td>
+			</tr>
+
+			<tr>
+				<td>2</td>
+				<td>任我行</td>
+				<td>男</td>
+				<td>
+					<a href="javascript:void(0)">删除</a>
+				</td>
+			</tr>
+
+		</table>
+
+	</body>
+
+</html>

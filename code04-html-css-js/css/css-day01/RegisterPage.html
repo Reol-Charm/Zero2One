@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Register Page</title>
+		<style>
+			
+			/* 标签选择器*/
+			body{
+				border: 1px solid blueviolet;
+				background: url("../../html/day02-form/img/register_bg.png") center no-repeat;
+				/*所有模块内间距50px*/
+				padding-top: 100px ;
+			}
+			/* 类选择器:筛选这一类
+			 ===============整个页面布局==================*/
+			.layout{
+				/*设置主体被方框包裹*/
+				border: 10px solid cornsilk;
+				width: 800px;
+				height: 500px;
+				/*为方框填充背景色*/
+				background-color: white;
+				/*==========中间方框内填充图片==========*//*background-image: url("../../html/html-day01/image/jiangxuan_4.jpg") ;*/
+				/*让div 水平居中*/
+				margin:auto;
+			}
+			/*===================控制左边块=============================*/
+			/* 左边块*/
+			.div_left{
+				border: 1px solid lightsalmon;
+				/*左浮动*/
+				float: left;
+				/*内边距*/
+				padding: 15px;
+			}
+			/*控制左边块内第一个元素*/
+			.div_left > p:first-child{
+				font-size: 20px;
+				color: #FFD026;
+			}
+			/*控制左边块最后一个元素*/
+			.div_left>p:last-child{
+				font-size: 20px;
+				color: #A6A6A6;
+			}
+			
+			/*================控制中边块=====================*/
+			/*中边块*/
+			.div_middle{
+				border: 1px solid lightsalmon;
+				float: left;
+				font-size:20px ;
+				padding: 2px;
+				/*消除padding 对外边框大小的影响*/
+				box-sizing: border-box;
+			}
+			.div_middle .td_left{
+				border: 1px solid aquamarine;
+				width: 100px;
+				height: 50px;
+				text-align: center;
+				/*padding: 13px;*/
+				
+			}
+			.div_middle .td_right{
+				border: 1px solid lightblue;
+				padding: 3px;
+			}
+			/* id选择器 */
+			#0{
+				border: 3px dashed lightgreen;
+			}
+			/*右边块*/
+			.div_right{
+				border: 1px solid lightcoral;
+				float: right;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<!--
+        	作者：Reol_Frank@163.com
+        	时间：2018-09-05
+        	描述：大的<div>中嵌套三个浮动的<div>.
+        -->
+        <div class="layout" >
+        	
+        	
+        	<!--
+            	作者：Reol_Frank@163.com
+            	时间：2018-09-05
+            	描述：div_left
+            -->
+            <div class="div_left">
+            	<p>新用户注册</p>
+            	<p>USER REGISTER</p>
+            </div>
+            
+            
+            
+            <!--
+            	作者：Reol_Frank@163.com
+            	时间：2018-09-05
+            	描述：div_middle===>form
+            -->
+            <div class="div_middle">
+            	<!-- ======================块标签中嵌套表单嵌套表格.===================-->
+            	<form>
+            		<table>
+            		
+            			<tr>
+            				<td class="td_left">
+            					<label for="username"> Username </label> 
+            				</td >
+            				<td class="td_right">
+            					<input type="text" name="username" id="username" placeholder="please input your username" />
+            				</td>
+            			</tr>
+            			<!--第二行 密码-->
+            			<tr>
+            				<td class="td_left">
+            					<label for="password">Password</label>
+            				</td>
+            				<td class="td_right">
+            					<input type="password" name="password" id="password" placeholder="please input u password" />
+            				</td>
+            			</tr>
+            			<!--第三行 性别 ==> radio -->
+            			<tr>
+            				<td class="td_left">
+            					<label for="gender">Gender</label>
+            				</td>
+            				<td class="td_right">
+            					<input type="radio" name="gender" value="female" checked="checked"/>female
+            					<input type="radio" name="gender" value="male"  />male
+            				</td>
+            			</tr>	
+            			<!--第六行 爱好 ================勾选框==================-->
+	            		<tr>
+	            			<td class="td_left">
+	            				<label for="hobby">Hobby</label>
+	            			</td>
+	            			<td class="td_right">
+	            				<input type="checkbox" name="hobby" id="hobby" value="sing songs"/>sing songs
+	            				<input type="checkbox" name="hobby" value="travel everywhere" />travel everywhere<br />
+	            				<input type="checkbox" name="hobby" value="play next chapter" />play next chapter
+	            				<input type="checkbox" name="hobby" value="chase after girl" />chase after girl
+	            				<input type="checkbox" name="hobby" value="..." checked="checked"/> ...
+	            			</td>"
+	            		</tr>
+            			<!--第四行 住址 ==> ======================select选择框还很不熟悉======================= -->
+            			<tr>
+            				<td class="td_left">
+            					<label for="address">Address</label>
+            				</td>
+            				<!--语法见下: -->
+            				<td class="td_right">
+            					<select name="address" <!--size="3"-->>
+            						<option value="">---please select address---</option>
+            						<option value="1">Beijing</option>
+            						<option value="2">Shanghai</option>
+            						<option value="3">Shenzhen</option>
+            						<option value="4">Hangzhou</option>
+            						<option value="5">...</option>
+            						...<!--...没用的'...'-->
+            					</select>
+            				</td>
+            			</tr>
+						<!--第五行 生日-->            			
+            			<tr>
+            				<td class="td_left">
+	            				<label for="birthday">Birthday</label>
+	            			</td>
+	            			<td class="td_right">
+	            				<input type="date" name="birthday" "/>
+	            			</td>
+            			</tr>
+	            		<!--7. 年龄=====================两个才显示出来??? ================-->
+	            		<tr>
+	            			<td class="td_left">
+	            				<label for="age">Age</label>
+	            			</td>
+	            			<td class="td_right>
+	            				<input type="number" name="age"/> 
+	            				<input type="number" name="age"/> 
+	            			</td>
+	            		</tr>
+	            		<!--8. 上传头像-->
+            			<tr>
+            				<td class="td_left">
+            					<label for="headshot">Headshot</label>
+            				</td>
+            				<td class="td_right">
+            					<input type="file" name="headshot" accept="image/jpeg" />
+            				</td>
+            			</tr>
+            			<!--9. 注册按钮-->
+            			<tr>
+            				<td id="1" colspan="2" align="center"><label for="register"><input type="submit" name="Submit"/></label></td>
+            			</tr>
+        			</table>
+            	</form>
+            	
+            </div>
+            
+            
+            
+            <!--
+            	作者：Reol_Frank@163.com
+            	时间：2018-09-05
+            	描述：div_right
+            -->
+            <div class="div_right">
+            	<p>
+            		已有账号?
+            		<a href="RegisterPage.html">立即登陆!</a>
+            	</p>
+            </div>
+            
+            
+            
+            
+        </div>
+	</body>
+</html>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding="utf-8" standalone="no" ?>
+<?xml-stylesheet type="text/css" href="color.css" ?>    <!-- 1. 引入外部 CSs样式.-->
+<!--2. DTD 约束. 瞬间报错.-->
+<!--格式:
+* 本地：<!DOCTYPE 根标签名 SYSTEM "dtd文件的位置">
+* 网络：<!DOCTYPE 根标签名 PUBLIC "dtd文件名字" "dtd文件的位置URL">-->
+<!--<!DOCTYPE ReolCharm SYSTEM "student.dtd">-->
+<ReolCharm>
+    <information>
+        <name id="name01" number="name-001">
+            Reol Charm
+        </name>
+        <age id="age01" number="age-001">
+            23
+        </age>
+        <gender id="gender01" number="gender-001">
+            male
+        </gender>
+        <!--Yubi-->
+        <name id="name" number="name-002">
+           Yubi
+        </name>
+        <age id="age" number="age-002">
+            20
+        </age>
+        <gender id="gender02" number="gender-002">
+            famale
+        </gender>
+
+        <!--新同学-->
+        <name id="name03" number="name-003" hello="New Attribute">
+            SaiKi
+        </name>
+        <age id="age03" number="age-003" hello="New Attribute">
+            23
+        </age>
+        <gender id="gender03" number="gender-003">
+            male
+        </gender>
+    </information>
+    <introduce>
+        <hobby id="hobby" number="hobby-001">
+            SC2
+        </hobby>
+        <hobby number="hobby-002">
+            <![CDATA[------Hello CDATA ZONE!----------]]>
+        </hobby>
+    </introduce>
+</ReolCharm>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<script type="text/javascript">
+			/* 用二维数组存储对应的市名称. */
+			var province = new Array(5);
+			province[1] = ["南昌市", "九江市", "庐山市", "赣州市"];
+			province[2] = ["杭州市", "嘉兴市", "绍兴市", "湖州市"];
+			province[3] = ["南京市", "苏州市", "沭阳市", "徐州市"];
+			province[4] = ["台北市", "台南市", "台中市", "花莲市"];
+
+			onload = function() {
+				/* 获取到 city 对象*/
+				var city = document.getElementById("city");
+				/* 表单域内容改变事件*/
+				document.getElementById("province").onchange = function() {
+					//					var cities = province[this.value];
+					
+					var cities = province[this.selectedIndex];
+					/* 重置 city 下拉选框. */
+					city.innerHTML = "<option >--请选择--</option>";
+
+					for(var i = 0; i < cities.length; i++) {
+						//						var op = document.createElement("option");
+						//						var text = document.createTextNode(cities[i]);
+						//						op.appendChild(text);
+						//						city.appendChild(op);
+
+						city.innerHTML += "<option >" + cities[i] + "</option>";
+
+					}
+
+				}
+
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<select id="province">
+			<option value="0">--请选择--</option>
+			<option value="1">江西省</option>
+			<option value="2">浙江省</option>
+			<option value="3">江苏省</option>
+			<option value="4">台湾省</option>
+		</select>
+
+		<select id="city">
+			<option>--请选择--</option>
+		</select>
+	</body>
+
+</html>
