@@ -83,6 +83,12 @@ public class MethodOfGetHttp extends HttpServlet {
 
         /*获取请求体中的数据之流的使用*/
         System.out.println("--------获取请求体中的数据之流的使用-------");
+        //1.设置流的编码
+        request.setCharacterEncoding("utf-8");
+        //获取请求参数username
+        String username = request.getParameter("username");
+        System.out.println(username);
+
         BufferedReader reader = request.getReader();
         String line = null;
         while ((line = reader.readLine()) != null) {

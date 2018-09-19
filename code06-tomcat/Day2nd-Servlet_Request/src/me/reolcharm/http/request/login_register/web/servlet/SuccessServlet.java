@@ -22,6 +22,7 @@ public class SuccessServlet extends HttpServlet {
             response.setContentType("text/html;charset=utf-8");
             //输出
             response.getWriter().write("登录成功！" + user.getUsername() + ",欢迎您");
+
         }
 
 
