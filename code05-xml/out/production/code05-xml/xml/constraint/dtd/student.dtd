@@ -1,6 +1,0 @@
-<!ELEMENT students (student*) ><!--根标签:students; *: 0-多个student标签-->
-<!ELEMENT student (name,age,sex)><!-- 顺序: n-a-s -->
-<!ELEMENT name (#PCDATA)><!--string-->
-<!ELEMENT age (#PCDATA)>
-<!ELEMENT sex (#PCDATA)>
-<!ATTLIST student number ID #REQUIRED><!--student标签 必须有 id 属性.-->

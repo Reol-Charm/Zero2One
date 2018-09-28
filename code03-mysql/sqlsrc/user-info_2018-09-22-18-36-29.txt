@@ -1,0 +1,2 @@
+uid	realName	userName	password	gender	age	address	email	created_date	lastTime	telNum	indentyCard
+1	reol	ReolCharm	1314	male	22	null	reocharm@gmail	2018/9/22	2018/9/22 00:00:00	null	null
