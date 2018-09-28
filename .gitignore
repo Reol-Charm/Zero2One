@@ -1,2 +1,10 @@
-G:\AllTheExercise\Magic\Zero2One\.idea
-G:\AllTheExercise\Magic\Zero2One\out
+# project needed
+*.iml
+*.jar
+
+# Java class files
+*.class
+
+# generated files
+.idea/
+out/
