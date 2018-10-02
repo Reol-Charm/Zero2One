@@ -1,6 +1,6 @@
 # project needed
 *.iml
-*.jar
+# *.jar
 
 # Java class files
 *.class
